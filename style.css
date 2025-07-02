@@ -1,0 +1,148 @@
+.container{
+    height: 200px;
+    width: 350px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.box{
+    background-color: rgb(240, 240, 218);
+   height: 100%;
+   width: 50%;
+
+
+  
+    /* border: 1px solid black; */
+}
+#image{
+    object-fit: contain;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(mug2.jpeg);
+    /* background-position: center; */
+      background-position: left;
+}
+#text{
+    border-radius: 0px 15px 15px 0px;
+    display: grid;
+    grid-template-rows: 17px 30px 60px 30px 30px 30px;
+}
+#header-1{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(130, 122, 111);
+}
+.cart{
+    background-color: rgb(63, 185, 63);
+   border-radius: 15px;
+}
+#heading-2{
+    color: rgb(39, 36, 35);
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+pre{
+    font-size: 0.65rem;
+     /* margin-left: 5px; */
+     /* margin-top: 10px; */
+}
+#header-3{
+      margin-left: 5px; 
+      margin-top: 10px;
+
+}
+.price{
+    margin-left: 5px;
+}
+b{
+    margin-right: 10px;
+   color: rgb(105, 155, 40);
+
+}
+del{
+    color: rgb(168, 146, 118);
+    font-size: smaller;
+}
+.cart{
+    
+   
+    width: 170px;
+    
+}
+#cart-img{
+    /* object-fit: cover; */
+    position: relative;
+    left: 30px;
+}
+span{
+position: relative;
+bottom: 10px;
+left: 32px;
+font-size: medium;
+color: aliceblue;
+}
+
+
+
+/* .container{
+    height: 300px;
+    width: 600px;
+    background-color: #c8b8b8;
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border:1px solid black;
+  border-radius: 15px 15px 15px 15px; ;
+
+
+}
+.box{
+    background-color: aquamarine;
+    border:1px solid black;
+    object-fit: cover;
+  border-radius: 15px 15px 15px 15px; ;
+
+
+}
+img{
+       object-fit: cover;  
+      height: 100%;
+      border-radius: 15px 0px 0px 15px; 
+
+
+
+}
+
+#text{
+border-radius: 0px 15px 15px 0px;
+
+}
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: #c8b8b8;
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border:1px solid black;
+  border-radius: 15px 15px 15px 15px; ;
+
+
+}
+.box{
+    background-color: aquamarine;
+    border:1px solid black;
+    object-fit: cover;
+  border-radius: 15px 15px 15px 15px; ;
+
+
+}
+img{
+      object-fit: cover;  
+      height: 100%;
+      border-radius: 15px 0px 0px 15px; 
+
+
+
+} */
+
